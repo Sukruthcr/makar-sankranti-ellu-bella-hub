@@ -26,7 +26,7 @@ export const SANKRANTI_ITEMS: SweetItem[] = [
     name: 'Cutted Bella (Premium Jaggery)',
     kannadaName: 'ಕತ್ತರಿಸಿದ ಬೆಲ್ಲ',
     description: 'Pure, organic jaggery cut into perfect bite-sized cubes. Known for its rich dark color and deep sweetness, essential for the festive spirit.',
-    imageUrl: 'public/bella.jpeg',
+    imageUrl: '/bella.jpeg',
     category: 'sweet',
     availableQuantities: ['250g', '500g', '1kg', '5kg Bucket']
   },
@@ -35,7 +35,7 @@ export const SANKRANTI_ITEMS: SweetItem[] = [
     name: 'Jeerige Peppermint',
     kannadaName: 'ಜೀರಿಗೆ ಪೆಪ್ಪರ್‌ಮೆಂಟ್',
     description: 'Refreshing sugar-boiled confectionery infused with the cooling essence of cumin (Jeerige). A nostalgic treat that balances the sweetness of the festive platter.',
-    imageUrl: 'public/jerge.jpeg',
+    imageUrl: '/jerge.jpeg',
     category: 'sweet',
     availableQuantities: ['100g', '250g', '500g']
   },
@@ -44,7 +44,7 @@ export const SANKRANTI_ITEMS: SweetItem[] = [
     name: 'Bili Ellu (White Sesame)',
     kannadaName: 'ಬಿಳಿ ಎಳ್ಳು',
     description: 'Triple-cleaned, high-quality white sesame seeds. Harvested fresh and perfectly cleaned to form the essential base of your home-made Sankranti treats.',
-    imageUrl: 'public/white helu.jpeg',
+    imageUrl: '/white helu.jpeg',
 
     category: 'nut',
     availableQuantities: ['250g', '500g', '1kg', 'Bulk']
@@ -63,7 +63,7 @@ export const SANKRANTI_ITEMS: SweetItem[] = [
     name: 'Premium Roasted Nuts',
     kannadaName: 'ಹುರಿದ ಕಡಲೆ ಬೀಜ',
     description: 'Only the finest quality groundnuts, slow-roasted to perfection to give that essential crunch to our Ellu-Bella mix.',
-    imageUrl: 'public/kadle.jpeg',
+    imageUrl: '/kadle.jpeg',
     category: 'nut',
     availableQuantities: ['250g', '500g', '1kg']
   },

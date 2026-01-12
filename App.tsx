@@ -56,7 +56,7 @@ const App: React.FC = () => {
     const fallback = 'https://pngmagic.com/image_small/happy-makar-sankranti-2026-vfx-style-poster_DB9.webp';
     return (
       <img
-        src={src}
+        src={`${import.meta.env.BASE_URL}${src.startsWith('/') ? src.slice(1) : src}`}
         alt={alt}
         className={className}
         onError={(e) => { (e.target as HTMLImageElement).src = fallback }}
@@ -251,7 +251,7 @@ const App: React.FC = () => {
                   </div>
 
                   <div className="space-y-3">
-                    <button 
+                    <button
                       onClick={handleCallOrder}
                       className="w-full py-4 bg-orange-600 text-white rounded-[2rem] font-black text-xl shadow-xl shadow-orange-100 hover:bg-orange-700 hover:scale-[1.02] active:scale-95 transition-all flex items-center justify-center gap-3"
                     >
@@ -400,7 +400,7 @@ const App: React.FC = () => {
               >
                 <span>📞 Click to Call & Order</span>
               </button>
-              <button 
+              <button
                 onClick={() => setSelectedItemInfo(null)}
                 className="px-10 py-5 bg-orange-50 text-orange-800 rounded-[2rem] font-black transition"
               >Close</button>
