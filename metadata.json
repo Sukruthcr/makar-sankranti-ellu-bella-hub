@@ -1,0 +1,7 @@
+{
+  "name": "Makar Sankranti - Ellu Bella Hub",
+  "description": "A vibrant single-page application celebrating the harvest festival of Makar Sankranti, featuring traditional sweets like Ellu Bella, Sakre Achu, and interactive AI greetings.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
